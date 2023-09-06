@@ -1,0 +1,163 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.header{
+  background-color: #3A3838;
+  color: #FFFFFF;
+  min-height: 109px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.headerdk1{
+  position:absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  color: #000;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -50px;
+}
+.textheaddk{
+  position: absolute;
+  width: 448px;
+height: 57px;
+flex-shrink: 0;
+color: #FFF;
+font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+text-align: center;
+line-height: normal;
+margin-top: -730px;
+}
+.lastpodu{
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.headerdk{
+  margin-bottom: 50px;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.headerdk2{
+  position: absolute;
+  margin-top: -50px;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.headerdkdk{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 100px;
+}
+.headerdkdkdk{
+  display: flex;
+  flex-direction: row;
+  margin-right: 100px;
+  justify-content: space-between;
+}
+.depak{
+  width: 84px;
+  height: 77px;
+  top: 31px;
+  left: 70px;
+  margin: 0;
+}
+.depakdk{
+  width: 585px;
+  height: 559px;
+  top: 299px;
+  left: 112px;
+  margin: 0;
+  margin-left: 50px;
+  flex-shrink: 0;
+}
+input {
+  width: 386px;
+  height: 45px;
+  flex-shrink: 0;
+  border-radius: 20px;
+background: #FFF;
+outline: none;
+border:none;
+}
+label{
+  color: #000;
+font-family: Inter;
+font-size: 40px;
+font-style: italic;
+margin-left: -490px;
+font-weight: 600;
+margin-bottom: -10px;
+line-height: normal;
+}
+.buttondk{
+  width: 267px;
+height: 73px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #3A3838;
+color: #FFF;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+cursor: pointer;
+margin-top: 40px;
+}
